@@ -1,0 +1,23 @@
+[out:json][timeout:90];
+(
+  node(around:35000,40.6082,-74.2776)["amenity"~"^(restaurant|cafe|bar|pub|biergarten|ice_cream|food_court)$"]["name"];
+  way(around:35000,40.6082,-74.2776)["amenity"~"^(restaurant|cafe|bar|pub|biergarten|ice_cream|food_court)$"]["name"];
+  relation(around:35000,40.6082,-74.2776)["amenity"~"^(restaurant|cafe|bar|pub|biergarten|ice_cream|food_court)$"]["name"];
+
+  node(around:35000,40.6082,-74.2776)["amenity"~"^(cinema|theatre|arts_centre|community_centre|conference_centre|events_venue|music_venue|planetarium|library)$"]["name"];
+  way(around:35000,40.6082,-74.2776)["amenity"~"^(cinema|theatre|arts_centre|community_centre|conference_centre|events_venue|music_venue|planetarium|library)$"]["name"];
+  relation(around:35000,40.6082,-74.2776)["amenity"~"^(cinema|theatre|arts_centre|community_centre|conference_centre|events_venue|music_venue|planetarium|library)$"]["name"];
+
+  node(around:35000,40.6082,-74.2776)["tourism"~"^(museum|attraction|gallery|viewpoint|theme_park|zoo|aquarium)$"]["name"];
+  way(around:35000,40.6082,-74.2776)["tourism"~"^(museum|attraction|gallery|viewpoint|theme_park|zoo|aquarium)$"]["name"];
+  relation(around:35000,40.6082,-74.2776)["tourism"~"^(museum|attraction|gallery|viewpoint|theme_park|zoo|aquarium)$"]["name"];
+
+  node(around:35000,40.6082,-74.2776)["leisure"~"^(park|sports_centre|fitness_centre|golf_course|miniature_golf|bowling_alley|escape_game|trampoline_park|ice_rink|stadium|nature_reserve|marina)$"]["name"];
+  way(around:35000,40.6082,-74.2776)["leisure"~"^(park|sports_centre|fitness_centre|golf_course|miniature_golf|bowling_alley|escape_game|trampoline_park|ice_rink|stadium|nature_reserve|marina)$"]["name"];
+  relation(around:35000,40.6082,-74.2776)["leisure"~"^(park|sports_centre|fitness_centre|golf_course|miniature_golf|bowling_alley|escape_game|trampoline_park|ice_rink|stadium|nature_reserve|marina)$"]["name"];
+
+  node(around:35000,40.6082,-74.2776)["shop"~"^(mall|department_store)$"]["name"];
+  way(around:35000,40.6082,-74.2776)["shop"~"^(mall|department_store)$"]["name"];
+  relation(around:35000,40.6082,-74.2776)["shop"~"^(mall|department_store)$"]["name"];
+);
+out center tags;

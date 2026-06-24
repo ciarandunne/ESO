@@ -1,0 +1,9 @@
+node_modules/
+.collection_temp/
+
+# Generated archives duplicate the folder contents and can exceed GitHub's 100 MB file limit.
+*.zip
+
+# Local/temporary files
+.DS_Store
+Thumbs.db
