@@ -79,6 +79,7 @@ Current scope:
 - 19 non-Merck peer companies from the top-20 pharma revenue ranking.
 - Latest available annual report / Form 10-K / Form 20-F, primarily from SEC filings where available.
 - Official company annual-report sources used for Roche, Merck KGaA / EMD Group, CSL, Bayer, and Boehringer Ingelheim.
+- Roche and CSL are captured as official annual-report PDFs; Merck KGaA / EMD Group is retained as an official annual-report page snapshot.
 - Generated PDF exports for the saved HTML filings/snapshots to simplify LLM upload and review.
 - Bayer and Boehringer Ingelheim retained as metadata-only because their official annual-report pages blocked automated download.
 
@@ -251,7 +252,7 @@ Notes:
 - This pack covers the 19 non-Merck companies from the top-20 pharma revenue ranking.
 - Merck & Co. appears in the same ranking but is excluded here because 10 years of Merck annual reports are already captured in `01_financial_reports/annual_reports`.
 - SEC 10-K / 20-F filings were captured for 14 peers.
-- Roche and Merck KGaA / EMD Group were captured as official annual-report page snapshots.
-- CSL was captured as an official annual-report PDF.
+- Roche and CSL were captured as official annual-report PDFs.
+- Merck KGaA / EMD Group was captured as an official annual-report page snapshot.
 - PDF exports were generated for 16 saved HTML filings/snapshots.
 - Bayer and Boehringer Ingelheim official annual-report pages were identified and retained as metadata-only because they blocked automated download.
