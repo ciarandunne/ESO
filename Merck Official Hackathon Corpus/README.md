@@ -79,9 +79,8 @@ Current scope:
 - 19 non-Merck peer companies from the top-20 pharma revenue ranking.
 - Latest available annual report / Form 10-K / Form 20-F, primarily from SEC filings where available.
 - Official company annual-report sources used for Roche, Merck KGaA / EMD Group, CSL, Bayer, and Boehringer Ingelheim.
-- Roche, Merck KGaA / EMD Group, and CSL are captured as official annual-report PDFs.
-- Generated PDF exports for the saved HTML filings/snapshots to simplify LLM upload and review.
-- Bayer and Boehringer Ingelheim retained as metadata-only: Bayer's official 2025 annual-report PDF URL was verified but blocked binary download with HTTP 403; Boehringer Ingelheim's official annual-report page blocked automated discovery/download.
+- Roche, Merck KGaA / EMD Group, CSL, and Bayer are captured as official annual-report PDFs; Boehringer Ingelheim is captured as its official Annual Report 2025 Highlights PDF.
+- Generated or copied PDF exports for the saved filings and official PDFs to simplify LLM upload and review.
 
 ## Manifest
 
@@ -239,12 +238,13 @@ Notes:
 ### Completed: Round 6 Peer Pharma Annual Reports
 
 Collection date: 2026-06-12
+Manual PDF completion: 2026-06-24
 
 Manifest status counts:
 
-- Downloaded files: 15
-- HTML snapshots: 2
-- Metadata-only links: 2
+- Downloaded files: 19
+- HTML snapshots retained: 2
+- Metadata-only links: 0
 - Failed items: 0
 
 Notes:
@@ -252,6 +252,6 @@ Notes:
 - This pack covers the 19 non-Merck companies from the top-20 pharma revenue ranking.
 - Merck & Co. appears in the same ranking but is excluded here because 10 years of Merck annual reports are already captured in `01_financial_reports/annual_reports`.
 - SEC 10-K / 20-F filings were captured for 14 peers.
-- Roche, Merck KGaA / EMD Group, and CSL were captured as official annual-report PDFs.
-- PDF exports were generated for 16 saved HTML filings/snapshots.
-- Bayer and Boehringer Ingelheim retained as metadata-only: Bayer's official 2025 annual-report PDF URL was verified but blocked binary download with HTTP 403; Boehringer Ingelheim's official annual-report page blocked automated discovery/download.
+- Roche, Merck KGaA / EMD Group, CSL, and Bayer were captured as official annual-report PDFs.
+- Boehringer Ingelheim was captured as its official Annual Report 2025 Highlights PDF.
+- PDF exports were generated or copied for 18 local peer PDFs.
