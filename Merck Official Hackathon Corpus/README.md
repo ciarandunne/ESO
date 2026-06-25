@@ -81,7 +81,7 @@ Current scope:
 - Official company annual-report sources used for Roche, Merck KGaA / EMD Group, CSL, Bayer, and Boehringer Ingelheim.
 - Roche, Merck KGaA / EMD Group, and CSL are captured as official annual-report PDFs.
 - Generated PDF exports for the saved HTML filings/snapshots to simplify LLM upload and review.
-- Bayer and Boehringer Ingelheim retained as metadata-only because their official annual-report pages blocked automated download.
+- Bayer and Boehringer Ingelheim retained as metadata-only: Bayer's official 2025 annual-report PDF URL was verified but blocked binary download with HTTP 403; Boehringer Ingelheim's official annual-report page blocked automated discovery/download.
 
 ## Manifest
 
@@ -254,4 +254,4 @@ Notes:
 - SEC 10-K / 20-F filings were captured for 14 peers.
 - Roche, Merck KGaA / EMD Group, and CSL were captured as official annual-report PDFs.
 - PDF exports were generated for 16 saved HTML filings/snapshots.
-- Bayer and Boehringer Ingelheim official annual-report pages were identified and retained as metadata-only because they blocked automated download.
+- Bayer and Boehringer Ingelheim retained as metadata-only: Bayer's official 2025 annual-report PDF URL was verified but blocked binary download with HTTP 403; Boehringer Ingelheim's official annual-report page blocked automated discovery/download.

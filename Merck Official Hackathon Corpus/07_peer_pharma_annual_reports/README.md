@@ -8,7 +8,7 @@ Annual-report benchmark pack for top pharmaceutical companies by 2024 pharma rev
 - Peer companies targeted: 19 non-Merck companies from that ranking.
 - Preferred source: official SEC 10-K / 20-F filing where available.
 - Additional official sources: Roche, CSL, and Merck KGaA / EMD Group official annual report PDFs.
-- Metadata-only: Bayer and Boehringer Ingelheim official pages were identified but blocked automated download.
+- Metadata-only: Boehringer Ingelheim official page was identified but blocked automated download; Bayer's official 2025 annual-report PDF URL was verified but blocked binary download with HTTP 403.
 
 ## Contents
 
