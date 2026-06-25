@@ -7,3 +7,4 @@ node_modules/
 # Local/temporary files
 .DS_Store
 Thumbs.db
+*.inspect.ndjson
